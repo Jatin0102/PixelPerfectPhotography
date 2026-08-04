@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PixelPerfect Photography</title>
+
+<link rel="stylesheet" th:href="@{/css/style.css}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+<div class="logo">
+    PixelPerfect Photography
+</div>
+
+<nav>
+
+<a th:href="@{/}">Home</a>
+
+<a th:href="@{/gallery}">Gallery</a>
+
+<a th:href="@{/booking}">Book Event</a>
+
+<a th:href="@{/contact}">Contact</a>
+
+</nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+
+
+<section class="hero">
+
+    <div class="overlay">
+
+        <h1>Capture Every Beautiful Moment</h1>
+
+        <p>
+            Wedding • Birthday • Baby Shoot • Pre Wedding • Events
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services">
+
+<h2>Our Services</h2>
+<div class="cards">
+
+<div class="card">
+
+<img th:src="@{/images/wedding.jpg}" alt="Wedding">
+
+<h3>Wedding</h3>
+
+<p>
+Beautiful wedding photography that captures every unforgettable moment.
+</p>
+
+</div>
+
+<div class="card">
+
+<img th:src="@{/images/birthday.jpg}" alt="Birthday">
+
+<h3>Birthday</h3>
+
+<p>
+Creative birthday photography for kids and adults.
+</p>
+
+</div>
+
+<div class="card">
+
+<img th:src="@{/images/prewedding.jpg}" alt="Pre Wedding">
+
+<h3>Pre Wedding</h3>
+
+<p>
+Romantic outdoor couple photoshoots with cinematic editing.
+</p>
+
+</div>
+
+<div class="card">
+
+<img th:src="@{/images/baby.jpg}" alt="Baby">
+
+<h3>Baby Shoot</h3>
+
+<p>
+Cute newborn and baby photography with beautiful themes.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section class="why">
+
+<h2>Why Choose Us?</h2>
+
+<div class="why-grid">
+
+<div>
+<h3>📷 Professional Team</h3>
+<p>Experienced photographers with creative vision.</p>
+</div>
+
+<div>
+<h3>🎨 HD Editing</h3>
+<p>Premium photo retouching and cinematic color grading.</p>
+</div>
+
+<div>
+<h3>⚡ Fast Delivery</h3>
+<p>Quick editing and timely delivery of albums.</p>
+</div>
+
+<div>
+<h3>😊 Happy Customers</h3>
+<p>100+ satisfied customers with memorable experiences.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section class="reviews">
+
+<h2>Customer Reviews</h2>
+
+<div class="review-container">
+
+<div class="review">
+
+★★★★★
+
+<p>
+
+"Wonderful experience. Amazing wedding photography!"
+
+</p>
+
+<h4>- Priya</h4>
+
+</div>
+
+<div class="review">
+
+★★★★★
+
+<p>
+
+"Professional team and excellent editing quality."
+
+</p>
+
+<h4>- Rahul</h4>
+
+</div>
+
+<div class="review">
+
+★★★★★
+
+<p>
+
+"Our baby photos are simply beautiful."
+
+</p>
+
+<h4>- Sneha</h4>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<div class="footer-content">
+
+<div>
+
+<h3>PixelPerfect Photography</h3>
+
+<p>
+
+Capturing beautiful memories that last forever.
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Quick Links</h3>
+
+<p><a th:href="@{/}">Home</a></p>
+
+<p><a th:href="@{/gallery}">Gallery</a></p>
+
+<p><a th:href="@{/booking}">Book Event</a></p>
+
+<p><a th:href="@{/contact}">Contact</a></p>
+
+</div>
+
+<div>
+
+<h3>Contact</h3>
+
+<p>📞 +91 9703089291</p>
+
+<p>✉ pixelperfect@gmail.com</p>
+
+<p>📍 Jandrapet, Chirala</p>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="copyright">
+
+© 2026 PixelPerfect Photography. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script th:src="@{/js/script.js}"></script>
+
+</body>
+
+</html>
